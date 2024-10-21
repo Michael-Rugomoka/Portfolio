@@ -1,0 +1,119 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #00aaff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #00ccff;
+    color: white;
+    padding: 150px 20px;
+    font-size: 24px;
+}
+
+#about, #projects, #contact {
+    background-color: white;
+    color: #333;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-list article {
+    width: 300px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project-list article img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.project-list article:hover {
+    transform: scale(1.1);
+    background-color: #f0e68c;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #00aaff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #00ccff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #ffcc00;
+}
